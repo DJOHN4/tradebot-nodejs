@@ -1,0 +1,22 @@
+    {
+        "baseUrl": "https://api.binance.com/api/",
+        "priceUrl": "v1/ticker/price?symbol=",
+        "hour24": "v1/ticker/24hr",
+        "apiKey": "hjkDFAgdksaduFYFDDhvshdg",
+        "apiSecret": "gfgsgfTShsaGFH",
+        "logFile": "logs/appinfo.log",
+        "tradeParam": {
+            "principle": "350",
+            "withdrawPercentage": "25",
+            "tradeCount": "5",
+            "extrapolateCount": "7",
+            "profitValue": {
+                "percentage": "0.20",
+                "dollarValue": "10"
+            }
+        },
+        "time": {
+            "polInterval": "1",
+            "dayClose": "9:30"
+        }
+    }
