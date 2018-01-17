@@ -1,15 +1,19 @@
-class Utils {
-constructor(){
-
+{
+  "name": "cointradebot",
+  "version": "1.0.0",
+  "description": "Bot for doing auto trade for crypto coins",
+  "main": "server.js",
+  "dependencies": {
+    "request": "^2.83.0",
+    "ws": "^3.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git"
+  },
+ 
+  "author": "Dinu John",
+  "license": "ISC"
 }
-    waitme(milliseconds) {
-        var start = new Date().getTime();
-        for (var i = 0; i < 1e7; i++) {
-            if ((new Date().getTime() - start) > milliseconds) {
-                break;
-            }
-        }
-    }
-}
-module.exports = Utils;
-
