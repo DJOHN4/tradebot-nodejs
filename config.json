@@ -2,8 +2,8 @@
         "baseUrl": "https://api.binance.com/api/",
         "priceUrl": "v1/ticker/price?symbol=",
         "hour24": "v1/ticker/24hr",
-        "apiKey": "gxmaRmtXwxqABuS2FfniQssrPixgSlT7HXDpacROvi310Uf3tgSpdylHovlQeC5I",
-        "apiSecret": "uVwh9GqCDGH4XG6qJ3mZZGhg4VgEb8kMTVmMnOHyQIScCfkKiMW0yvvivOtLYVgu",
+        "apiKey": "gxmaRmtXwxqABuS2FfniQssrPixg",
+        "apiSecret": "uVwh9GqCDGH4XG6qJ3mZZGhg4",
         "logFile": "logs/appinfo.log",
         "mode":"PROD",
         "tradeParam": {
